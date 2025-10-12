@@ -1,0 +1,20 @@
+KASUKABE DEFENCE FORCE
+
+1. Chall category : WEB
+2. Chall name with points: Kasukabe defense force, points = 100
+3. Description: 
+Shinchan’s day off turned into a mystery — Shiro ran off chasing something shiny and now the little rascal refuses to admit he lost him. Your job is simple in words and tricky in practice: help Shinchan find Shiro. The clues are scattered across the site: a few well-hidden pages, a whisper in the source, and an image that’s keeping secrets beyond what you can see.
+
+This challenge rewards careful reconnaissance, a little decoding, and the patience to follow a chain of small hints. It isn’t about brute force — it’s about noticing the things most players ignore. If you reach the right place and extract what’s hidden in the homeowner’s cover photo, you’ll learn where Shiro is hiding.
+
+https://kasukabedefenceforce.netlify.app/
+
+Flag format: flagwars{...}
+
+4. Solution:
+
+1. Change the url from https://kasukabedefenceforce.netlify.app/ to https://kasukabedefenceforce.netlify.app/robots.txt
+you get --->
+
+
+5. Flag answer:
