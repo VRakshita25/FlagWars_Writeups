@@ -9,7 +9,7 @@ Alternatively you can also run an online exiftool through the images. For this, 
 
 ![alt text](image.png)
 
-We get, _doraemon_guides_
+We get, __doraemon_guides__
 
 ![alt text](image-1.png)
 
