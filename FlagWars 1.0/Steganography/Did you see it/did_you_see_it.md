@@ -5,6 +5,8 @@ It started as a joke, passed from inbox to inbox.
 Nobody noticed anything strange — until someone finally looked closer.
 Now you’re holding the same image. Do you see it too?
 
+![mission3](https://github.com/user-attachments/assets/010e8568-007c-490a-a9fa-8bfa63a26f3e)
+
 ## Requirements:
 VirtualBox, Kali Linux or any online exiftool
 
