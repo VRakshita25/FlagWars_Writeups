@@ -12,6 +12,7 @@ Once you open the given spotify playlist link, you'll be directed to this page,
 
 <img width="496" height="848" alt="image" src="https://github.com/user-attachments/assets/abb0bc21-ff80-4ebf-8bf6-dfeb856ba62b" />
 
+
 <img width="485" height="848" alt="image" src="https://github.com/user-attachments/assets/71e01f01-b45d-48e3-9133-e59042c77203" />
 
 where clearly in the description, the subtle clue is given, so the solution is to take all the first letters of the song and framing the words in order separated by underscores. The flag in this chall is case-insensitive.
@@ -19,3 +20,4 @@ where clearly in the description, the subtle clue is given, so the solution is t
 ## Flag
 
 flagwars{osint_by_sound}
+
