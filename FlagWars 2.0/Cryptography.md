@@ -1,0 +1,30 @@
+# The Archivist’s Mark
+
+## Desc:
+
+    > `Author : st3g0`
+    
+    **Flag format:** `flagwars{...}`
+    
+    An anonymous archivist stored their secrets not in words, not in numbers—  
+    but in **symbols no human language uses**.
+    
+    You have recovered a fragment of this encoded script.  
+    It is clearly not Base64, not Morse, not Unicode, not classical substitution.
+    https://drive.google.com/file/d/1ZY3q044H8duqHgJX1z9ERtV0UZo9WXM6/view?usp=sharing
+    
+    The symbols seem to follow a strict positional pattern.  
+    But the message is additionally wrapped in an unfamiliar percent-encoded layer.
+    
+    Decrypt the archive and recover the flag.
+
+
+## Soln:
+
+
+
+
+
+## Flag:
+
+    flagwars{symbolic_madness}
