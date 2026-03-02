@@ -103,3 +103,47 @@
 ## Flag:
 
     flagwars{calm_down_its_just_crypto}
+
+
+# 3. Sixty-four Secrets
+
+## Desc:
+
+    >`Author : st3g0`
+    
+    When the investigation team raided the apartment, they didn’t find much.
+
+    No notebooks.
+    No USB drives.
+    No suspicious software.
+
+    Just a single text file open on the screen.
+
+    It wasn’t readable.
+    It wasn’t encrypted either — at least not in any way the forensic tools recognized.
+
+    Just a long string of strange characters:
+
+    Uppercase.
+    Lowercase.
+    Numbers.
+    A couple of symbols at the end.
+
+    The analyst smirked.
+
+    “Not everything that looks secure is complicated,” she said.
+
+    Sixty-four characters.
+    That’s all it takes to hide a secret.
+
+    Can you uncover what they tried so hard to conceal?
+
+    ZmxhZ3dhcnN7YjRzZTY0X3VuNzBjazNkIX0=
+
+## Soln:
+
+    Go to cyberchef and use the From Base64 recipe.
+
+## Flag:
+
+    flagwars{b4se64_un70ck3d!}
