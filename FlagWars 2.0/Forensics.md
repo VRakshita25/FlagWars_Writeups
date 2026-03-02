@@ -136,7 +136,8 @@
 
     flagwars{jammu-punjab-11:11}
 
-    https://drive.google.com/file/d/1hGy3U9Mz23FSrsffsxCQ6kxUA7DVpNms/view?usp=drive_link
+    
+https://drive.google.com/file/d/1hGy3U9Mz23FSrsffsxCQ6kxUA7DVpNms/view?usp=drive_link
 
 ## Soln:
 
@@ -145,3 +146,88 @@
 ## Flag:
 
     flagwars{mangalapuram-chennai-19:35}
+
+# 5. Eyes Wide… But Blind
+
+## Desc:
+
+    >`Author : EnCase`
+    
+    He searched the horizon for answers.
+
+    The mistake?
+
+    He was looking in the wrong place.
+https://drive.google.com/file/d/1VIgrULx27P7L5c-HB6795eqvhZl38idO/view?usp=drive_link
+
+## Soln:
+
+    Use exiftool and get the flag in the comments
+
+## Flag:
+
+    flagwars{m3t4_d4t4_matters!}
+
+# 6. The Last Message
+
+## Desc:
+
+    >`Author : EnCase`
+    
+    He searched the horizon for answers.
+
+    The mistake?
+
+    He was looking in the wrong place.
+https://drive.google.com/file/d/1VIgrULx27P7L5c-HB6795eqvhZl38idO/view?usp=drive_link
+
+## Soln:
+
+    Use exiftool and get the flag in the comments
+
+## Flag:
+
+    flagwars{m3t4_d4t4_matters!}
+
+# 7. Clean Sweep
+
+## Desc:
+
+    >`Author : EnCase`
+    
+    He didn’t smash the drive.
+    He didn’t encrypt it.
+
+    He just deleted what mattered and walked away.
+
+    The system looks ordinary.
+    That’s the problem.
+
+    link: https://drive.google.com/file/d/1bCKCxOUshdvWkz5DNSLEw8-    bl4L5Lew0/view?usp=sharing
+## Soln:
+
+    Use Autopsy software to recover the deleted files from the forensic image. 
+    
+    First part:
+    
+    Inside e_for_elephant.docx there will be a base 64 encoded text - UDE6IGZsYWd3YXJzezN2MWQzbmNlXw==
+    
+    Decoding which will lead to P1: flagwars{3v1d3nce_
+    
+    Second part: 
+    
+        P2: h1dd3n_but_
+
+    Third part:
+
+        P3: gr34t_m1nd5_
+
+    Fourth part:
+
+        P4: 4lw4y5_r3c0v3r_1t}
+
+## Flag:
+
+    flagwars{3v1d3nce_h1dd3n_but_gr34t_m1nd5_4lw4y5_r3c0v3r_1t}
+
+
