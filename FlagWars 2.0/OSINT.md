@@ -101,6 +101,38 @@
 
     flagwars{18.3232_-64.7662}
 
+# 4. The Last Match
 
+## Desc:
+
+    >`Author : EnCase`
+    
+       He was under observation.
+
+    Then he disappeared.
+
+    ***Three years*** have passed. The case is being reopened.
+
+    During a routine archive sweep, a single surveillance image resurfaced — the last confirmed capture of the subject.
+
+    Nothing remarkable at first glance.
+
+    A table. A tablet. A live broadcast playing.
+
+    Investigators believe the broadcast holds the key to determining **when this image was taken.**
+
+    That day is the last time he was ever seen. Can you help them find out the date when he was last seen?
+
+    flag format: flagwars{date}
+    eg: {28_02_2026}
+
+## Soln:
+
+    Since it happened 3 years back it means it was 2023. Zooming the picture shows the match is SRH vs KKR.
+    Search for the date of the match between SRH and KKR in 2023. 
+
+## Flag:
+
+    flagwars{14_04_2023}
 
 
