@@ -148,7 +148,7 @@
 
     flagwars{b4se64_un70ck3d!}
 
-# 3. 1337
+# 4. 1337
 
 ## Desc:
 
@@ -167,3 +167,69 @@
 ## Flag:
 
     flagwars{v4n1sh3ddd}
+
+
+
+# 5. The Archivist's Mark
+
+## Desc:
+
+    > `Author : st3g0`
+    
+    **Flag format:** `flagwars{...}`
+    
+    An anonymous archivist stored their secrets not in words, not in numbers—  
+    but in **symbols no human language uses**.
+    
+    You have recovered a fragment of this encoded script.  
+    It is clearly not Base64, not Morse, not Unicode, not classical substitution.
+    https://drive.google.com/file/d/1ZY3q044H8duqHgJX1z9ERtV0UZo9WXM6/view?usp=sharing
+    
+    The symbols seem to follow a strict positional pattern.  
+    But the message is additionally wrapped in an unfamiliar percent-encoded layer.
+    
+    Decrypt the archive and recover the flag.
+
+
+## Soln:
+
+    import urllib.parse
+    
+    ALPHABET = 'abcdefghijklmnopqrstuvwxyz0123456789{}_ '
+    
+    SYMBOL_MAP = {
+        '⌘':'a','⌬':'b','⍟':'c','⌖':'d','⎔':'e','⌁':'f','⌂':'g','⌤':'h',
+        '⍢':'i','⌇':'j','⍜':'k','⎊':'l','⍥':'m','⌻':'n','⍯':'o','⌼':'p',
+        '⍪':'q','⎉':'r','⌰':'s','⍮':'t','⎈':'u','⌥':'v','⌦':'w','⍫':'x',
+        '⌨':'y','⍬':'z','⓪':'0','①':'1','②':'2','③':'3','④':'4','⑤':'5',
+        '⑥':'6','⑦':'7','⑧':'8','⑨':'9','❴':'{','❵':'}','⁔':'_','░':' ',
+    }
+    
+    # Step 1: percent-decode
+    encoded = open('mark.txt').read().strip()
+    symbols = urllib.parse.unquote(encoded)
+    print(f"[1] After URL decode: {symbols}")
+    
+    # Step 2: symbol substitution
+    alpha   = list(ALPHABET)
+    shifted = ''.join(SYMBOL_MAP.get(s, s) for s in symbols)
+    print(f"[2] After symbol sub: {shifted}")
+    
+    # Step 3: reverse positional shift
+    result = ''
+    pos    = 0
+    for ch in shifted:
+        if ch in alpha:
+            pos   += 1
+            idx    = alpha.index(ch)
+            result += alpha[(idx - pos) % len(alpha)]
+        else:
+            result += ch
+    
+    print(f"[3] After unshift:    {result}")
+    print(f"\nFLAG: {result}")
+
+
+## Flag:
+
+    flagwars{symbolic_madness}
