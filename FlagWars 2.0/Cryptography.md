@@ -109,7 +109,7 @@
 
 ## Desc:
 
-    >`Author : st3g0`
+    >`Author : EnCase`
     
     When the investigation team raided the apartment, they didn’t find much.
 
@@ -147,3 +147,23 @@
 ## Flag:
 
     flagwars{b4se64_un70ck3d!}
+
+# 3. 1337
+
+## Desc:
+
+    >`Author : EnCase`
+    
+    It looks readable… but only if you speak 1337.
+
+    Can you translate the code and recover the flag?
+    /=[_@6vv/-\25|/4|V1_/‾)-(3|)|]|]
+    NOTE: THE FLAG SHOULD BE SUBMITTED IN LOWER CASE
+
+## Soln:
+
+    Go to dCode and use leetspeak decoder
+
+## Flag:
+
+    flagwars{v4n1sh3ddd}
